@@ -2528,15 +2528,17 @@ input, select, textarea {
 	#banner {
 		background-attachment:fixed;
 		background-color: #645862;
-		background-image: url("images/TitleBGImage.png");
+		/*background-image: url("images/TitleBGImage.png");*/
+		background: linear-gradient(rgba(0,0,0,100),rgba(255,255,255,0)),url("images/TitleBGImage.png");
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
-		color: #fff;
+		color: #ffffff;
 		cursor: default;
 		padding: 6em 0;
 		text-align: center;
 		position: relative;
+		/*filter: brightness(66%);*/
 	}
 
 		#banner .inner {
