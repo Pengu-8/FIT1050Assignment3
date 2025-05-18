@@ -1878,15 +1878,15 @@ input, select, textarea {
 		position: relative;
 	}
 
-		.image:before {
-			background: url("images/overlay.png");
-			content: '';
-			height: 100%;
-			left: 0;
-			position: absolute;
-			top: 0;
-			width: 100%;
-		}
+		/*.image:before {*/
+		/*	background: url("images/overlay.png");*/
+		/*	content: '';*/
+		/*	height: 100%;*/
+		/*	left: 0;*/
+		/*	position: absolute;*/
+		/*	top: 0;*/
+		/*	width: 100%;*/
+		/*}*/
 
 		.image.fit {
 			display: block;
@@ -2549,6 +2549,32 @@ input, select, textarea {
 		100% {
 			opacity: 1;
 		}
+	}
+
+	.dining {
+		/*background-attachment:fixed;*/
+		background-color: #000000;
+		background-image: url("images/Dining.png");
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		color: #ffffff;
+		cursor: default;
+		padding: 13em 0;
+		text-align: center;
+		position: relative;
+	}
+	.events {
+		background-color: #000000;
+		background-image: url("images/Events.png");
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		color: #ffffff;
+		cursor: default;
+		padding: 13em 0;
+		text-align: center;
+		position: relative;
 	}
 
 	#banner {
