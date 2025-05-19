@@ -3,7 +3,35 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+let rev = 0;
+carousel(rev);
 
+function previousreview() {
+	rev = rev - 1;
+	carousel(rev);
+}
+
+function nextreview() {
+	rev = rev + 1;
+	carousel(rev);
+}
+
+function carousel(review) {
+	let reviews = document.getElementsByClassName("review_rating");
+
+	if (review >= reviews.length) {
+		review = 0;
+		rev = 0;
+	}
+	if (review < 0) {
+		review = reviews.length - 1;
+		rev = reviews.length - 1;
+	}
+	for (let i = 0; i < reviews.length; i++) {
+		reviews[i].style.display = "none";
+	}
+	reviews[review].style.display = "block";
+}
 (function($) {
 
 	var	$window = $(window),
