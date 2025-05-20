@@ -1764,24 +1764,6 @@ input, select, textarea {
 		text-align: center;
 	}
 
-		/*header.special:before, header.special:after {*/
-		/*	border-bottom: solid 1.5px;*/
-		/*	border-top: solid 1.5px;*/
-		/*	content: '';*/
-		/*	height: 7px;*/
-		/*	opacity: 0.1;*/
-		/*	position: absolute;*/
-		/*	top: 1.75em;*/
-		/*	width: 43%;*/
-		/*}*/
-
-		/*header.special:before {*/
-		/*	left: 0;*/
-		/*}*/
-
-		/*header.special:after {*/
-		/*	right: 0;*/
-		/*}*/
 
 		header.special h2 {
 			margin-bottom: 0;
@@ -2542,6 +2524,31 @@ input, select, textarea {
 		}
 	}
 
+	.company_icons {
+		border-radius: 50%;
+		width:2.5em;
+	}
+
+	.footer_h2 {
+		overflow: hidden;
+		white-space: nowrap;
+		display: inline-block;
+		color: white;
+	}
+	.footer_h3 {
+		color: white;
+		font-size: 0.8em;
+	}
+	.footer_div {
+		margin: 4em
+	}
+	.footer_row {
+		display: flex;
+		align-items: start;
+		justify-content: center;
+
+	}
+
 	#cust_sat_h {
 		color: #494848;
 		font-weight: bold;
@@ -3106,3 +3113,6 @@ input, select, textarea {
 			}
 
 	}
+#navPanel {
+	display: none;
+}

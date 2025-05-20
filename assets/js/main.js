@@ -121,4 +121,6 @@ function carousel(review) {
 
 		}
 
-})(jQuery);
+})
+
+(jQuery);
