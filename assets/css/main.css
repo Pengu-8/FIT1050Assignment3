@@ -2524,6 +2524,10 @@ input, select, textarea {
 		}
 	}
 
+	.ed_link {
+		cursor: pointer;
+	}
+
 	.company_icons {
 		border-radius: 50%;
 		width:2.5em;
@@ -2581,7 +2585,7 @@ input, select, textarea {
 	.cust_review {
 		background: rgb(144, 97, 198);
 		height: auto;
-		width: 270px;
+		width: 420px;
 		border-radius: 15px;
 		margin: auto;
 		padding: 10px;
@@ -2596,7 +2600,7 @@ input, select, textarea {
 	.review_rating {
 		align-items: center;
 		justify-content: space-evenly;
-		width: 250px;
+		width: 400px;
 		padding: 10px;
 
 	}
@@ -2703,7 +2707,6 @@ input, select, textarea {
 		background-attachment:fixed;
 		background-color: #000000;
 		background-image: url("images/TitleBGImage-1.png");
-		/*background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)),url("images/TitleBGImage.png");*/
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -2728,6 +2731,7 @@ input, select, textarea {
 			display: inline-block;
 			opacity: 0;
 			padding: 3em;
+			padding-bottom: 13em;
 			text-align: center;
 		}
 
